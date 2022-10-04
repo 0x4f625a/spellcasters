@@ -1,11 +1,7 @@
 {
-  "name": "jam-and-jax-npc-index-spellcasters",
   "title": "Jam and Jax's NPC Index: Spellcaster",
   "description": "Clerics, Sorcerors, Wizards, and Druid NPCs are ready for battle! Be sure to add the proper Jam and Jax ancestry feats to round out their abilities!",
-  "author": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
-  "version": "1.00",
-  "minimumCoreVersion": "9.269",
-  "compatibleCoreVersion": "9.269",
+  "version": "1.01",
   "packs": [
     {
       "label": "Jam and Jax NPC Clerics",
@@ -13,7 +9,8 @@
       "name": "clerics",
       "path": "/packs/clerics.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Cleric Abilities",
@@ -21,7 +18,8 @@
       "name": "cleric-items",
       "path": "/packs/cleric-items.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Sorcerors",
@@ -29,7 +27,8 @@
       "name": "sorc",
       "path": "/packs/sorc.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Sorceror Abilities",
@@ -37,7 +36,8 @@
       "name": "sorc-items",
       "path": "/packs/sorc-items.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Wizards",
@@ -45,7 +45,8 @@
       "name": "wizards",
       "path": "/packs/wizards.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Druid Abilities",
@@ -53,7 +54,8 @@
       "name": "druid-items",
       "path": "/packs/druid-items.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Druids",
@@ -61,7 +63,8 @@
       "name": "druid",
       "path": "/packs/druid.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Jam and Jax NPC Wizard Abilities",
@@ -69,14 +72,34 @@
       "name": "wizard-items",
       "path": "/packs/wizard-items.db",
       "system": "pf2e",
-      "private": false
+      "private": false,
+      "flags": {}
     }
   ],
-  "system": [
-    "pf2e"
-  ],
-  "minimumSystemVersion": "3.13.1.12",
   "url": "https://github.com/Jax-PF2/9405lkllkdfjgd23a",
   "manifest": "https://raw.githubusercontent.com/Jax-PF2/9405lkllkdfjgd23a/master/module.json",
-  "download": "https://github.com/Jax-PF2/9405lkllkdfjgd23a/archive/refs/heads/main.zip"
+  "download": "https://github.com/Jax-PF2/9405lkllkdfjgd23a/archive/refs/heads/main.zip",
+  "id": "jam-and-jax-npc-index-spellcasters",
+  "authors": [
+    {
+      "name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.1.0",
+          "verified": "4.1.0"
+         }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10.286",
+    "verified": "10.286"
+  }
 }
