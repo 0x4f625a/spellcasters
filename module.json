@@ -1,0 +1,105 @@
+{
+  "title": "Jam and Jax's NPC Index: Spellcaster",
+  "description": "Clerics, Sorcerors, Wizards, and Druid NPCs are ready for battle! Be sure to add the proper Jam and Jax ancestry feats to round out their abilities!",
+  "version": "1.01",
+  "packs": [
+    {
+      "label": "Jam and Jax NPC Clerics",
+      "type": "Actor",
+      "name": "clerics",
+      "path": "/packs/clerics.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Cleric Abilities",
+      "type": "Item",
+      "name": "cleric-items",
+      "path": "/packs/cleric-items.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Sorcerors",
+      "type": "Actor",
+      "name": "sorc",
+      "path": "/packs/sorc.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Sorceror Abilities",
+      "type": "Item",
+      "name": "sorc-items",
+      "path": "/packs/sorc-items.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Wizards",
+      "type": "Actor",
+      "name": "wizards",
+      "path": "/packs/wizards.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Druid Abilities",
+      "type": "Item",
+      "name": "druid-items",
+      "path": "/packs/druid-items.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Druids",
+      "type": "Actor",
+      "name": "druid",
+      "path": "/packs/druid.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Jam and Jax NPC Wizard Abilities",
+      "type": "Item",
+      "name": "wizard-items",
+      "path": "/packs/wizard-items.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Jax-PF2/9405lkllkdfjgd23a",
+  "manifest": "https://raw.githubusercontent.com/Jax-PF2/9405lkllkdfjgd23a/master/module.json",
+  "download": "https://github.com/Jax-PF2/9405lkllkdfjgd23a/archive/refs/heads/main.zip",
+  "id": "jam-and-jax-npc-index-spellcasters",
+  "authors": [
+    {
+      "name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.1.0",
+          "verified": "4.1.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10.286",
+    "verified": "10.286"
+  }
+}
