@@ -1,7 +1,7 @@
 {
   "title": "Jam and Jax's NPC Index: Spellcaster",
-  "description": "Clerics, Sorcerors, Wizards, and Druid NPCs are ready for battle! Be sure to add the proper Jam and Jax ancestry feats to round out their abilities!",
-  "version": "1.021",
+  "description": "Clerics, Sorcerors, Wizards, and Druid NPCs are ready for battle! Coming later today: Now with images and tokens!",
+  "version": "1.023",
   "packs": [
     {
       "label": "Jam and Jax NPC Clerics",
@@ -93,13 +93,13 @@
         "type": "system",
         "compatibility": {
           "minimum": "4.1.0",
-          "verified": "4.10.1"
+          "verified": "4.12.6"
         }
       }
     ]
   },
   "compatibility": {
     "minimum": "10.286",
-    "verified": "10.286"
+    "verified": "10.291"
   }
 }
