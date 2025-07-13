@@ -1,7 +1,7 @@
 {
   "title": "Jam and Jax's NPC Index: Spellcaster",
   "description": "Clerics, Sorcerors, Wizards, and Druid NPCs are ready for battle! Now with images and tokens!",
-  "version": "1.2",
+  "version": "1.5",
   "packs": [
     {
       "label": "Jam and Jax NPC Clerics",
@@ -92,14 +92,14 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.1.0",
-          "verified": "4.12.6"
+          "minimum": "7.2.3",
+          "verified": "7.2.3"
         }
       }
     ]
   },
   "compatibility": {
-    "minimum": "10.286",
-    "verified": "10.291"
+    "minimum": "13.346",
+    "verified": "13.346"
   }
 }
